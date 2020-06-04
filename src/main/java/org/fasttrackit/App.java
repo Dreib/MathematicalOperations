@@ -1,13 +1,18 @@
 package org.fasttrackit;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        int x = 100;
+        int y = 25;
+
+        Operations operation = new Operations();
+        operation.sum(x, y);
+        operation.substraction(x, y);
+        operation.multiplication(x, y);
+        operation.division(x, y);
+
     }
 }
